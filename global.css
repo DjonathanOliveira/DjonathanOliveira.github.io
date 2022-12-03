@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Fira Sans', 'Arial', sans-serif;
+    color: #131313;
+    /* margin-bottom: 1000px; */
+}
+
+h1, h2, h3, p{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.subtitulo{
+    font-size: 8rem;
+    word-break: break-all;
+    line-height: 1.2;
+    text-transform: uppercase;
+    max-width: 4ch;
+}
+
+@media(max-width:600px){
+    .subtitulo{
+        text-transform: capitalize;
+        max-width: initial !important;
+        font-size: 3rem;
+    }
+
+}
+
